@@ -1,0 +1,40 @@
+# Binaries and object files
+/bin/
+/obj/
+*.o
+*.so
+*.a
+*.exe
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Dependency directories (remove these lines if you prefer to track dependencies)
+/vendor/
+Gopkg.lock
+go.sum
+go.mod
+
+# IDE and editor files
+/.vscode/
+/.idea/
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Local env files
+.env
+.env.local
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Project-local glide cache, RE: https://github.com/Masterminds/glide/issues/736
+.glide/
